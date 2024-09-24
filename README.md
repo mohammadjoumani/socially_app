@@ -29,6 +29,10 @@
 
 ## Installation
 
+For Test the App:
+Usename: emilys
+Password: emilyspas
+
 # Install app for test
 - [Android apk](https://drive.google.com/file/d/1Xmq81gruo9t3djiEj3slIjYmPbS4rNGN/view?usp=sharing)
 - [Live demo](https://mohammadjoumani.github.io/preview_socially_app/)
