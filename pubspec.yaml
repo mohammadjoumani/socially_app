@@ -1,0 +1,57 @@
+name: socially_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_localizations:
+    sdk: flutter
+
+  ### Image ###
+  flutter_svg: ^2.0.10+1
+
+  ### Base ###
+  flutter_launcher_icons: ^0.13.1
+  flutter_bloc: ^8.1.6
+  dio: ^5.5.0+1
+  pretty_dio_logger: ^1.3.1
+  dartz: ^0.10.1
+  get_it: ^7.7.0
+  shared_preferences: ^2.2.3
+  internet_connection_checker: ^1.0.0+1
+  device_info_plus: ^10.1.0
+  url_launcher: ^6.3.0
+  top_snackbar_flutter: ^3.1.0
+  device_preview: ^1.2.0
+  timeago: ^3.7.0
+  flutter_story: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/translation/
+
+  fonts:
+    - family: Glory
+      fonts:
+        - asset: assets/fonts/Glory-Regular.ttf
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
